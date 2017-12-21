@@ -22,11 +22,8 @@ public class LoginLogoutTest {
 		} catch (AuthenticationException e) {
 			e.printStackTrace();
 		}
-		Assert.assertEquals(true, subject.isAuthenticated()); //¶ÏÑÔÓÃ»§ÒÑ¾­µÇÂ¼
-<<<<<<< HEAD
-		//2018 1111111
-=======
->>>>>>> 08f2eec54f2e867d85d1a3da574d6cb2077bda26
+		Assert.assertEquals(true, subject.isAuthenticated());
+		//2018 11111
 		subject.logout();
 	}
 
