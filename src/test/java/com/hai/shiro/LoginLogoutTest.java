@@ -18,8 +18,8 @@ public class LoginLogoutTest {
 		Subject subject = SecurityUtils.getSubject();
 		UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
 		subject.login(token);
-		//5555555
-	
+		//5555555 8888888
+	        //6666666
 		Assert.assertEquals(true, subject.isAuthenticated());
 		subject.logout();
 	}
