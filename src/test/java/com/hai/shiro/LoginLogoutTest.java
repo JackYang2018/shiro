@@ -19,7 +19,7 @@ public class LoginLogoutTest {
 		
 		Subject subject = SecurityUtils.getSubject();
 		UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
-		//19999
+		//19999 20001
 		try {
 			subject.login(token);
 		} catch (AuthenticationException e) {
