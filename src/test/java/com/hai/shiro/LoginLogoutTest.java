@@ -23,7 +23,6 @@ public class LoginLogoutTest {
 			e.printStackTrace();
 		}
 		Assert.assertEquals(true, subject.isAuthenticated());
-		//2018 11111
 		subject.logout();
 	}
 
