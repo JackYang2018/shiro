@@ -19,7 +19,10 @@ public class LoginLogoutTest {
 		UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
 		subject.login(token);
 		//5555555 8888888
-	        //6666666
+	    //6666666
+		//5555555 999999
+		//7777777
+	    ///8888888
 		Assert.assertEquals(true, subject.isAuthenticated());
 		subject.logout();
 	}
