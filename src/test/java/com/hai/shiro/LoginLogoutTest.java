@@ -21,7 +21,6 @@ public class LoginLogoutTest {
 		//5555555
 	
 		Assert.assertEquals(true, subject.isAuthenticated());
-		//2018 11111
 		subject.logout();
 	}
 
