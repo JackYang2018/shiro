@@ -6,12 +6,12 @@ public class Test {
 		System.out.println("hello yangliu");
 		System.out.println("hello world3");
 		
-		
-		
-		
 		System.out.println("hello a");
 		System.out.println("hello b");
 		System.out.println("hello c");
+		System.out.println("hello haizi");
+		
+		System.out.println("hello zhuzhu");
 	}
 
 }
